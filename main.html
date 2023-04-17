@@ -14,7 +14,7 @@
 			arr.sort((a,b)=>a-b);
 			const newArr = [...new Set(arr)];
 			if(newArr.length==1 || newArr.length==0){
-				return  '-Infinity';
+				return  -Infinity;
 			}
 			return newArr[newArr.length-2];
 		}
